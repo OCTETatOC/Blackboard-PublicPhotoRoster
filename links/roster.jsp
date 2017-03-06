@@ -11,13 +11,7 @@
                 blackboard.platform.persistence.*"
         errorPage="/error.jsp"                
 %>
-<SCRIPT LANGUAGE="JavaScript">
-function imageError(theImage)
-{
-theImage.src="https://octet1.csr.oberlin.edu/octet/Bb/Faculty/img/noimage.jpg";
-theImage.onerror = null;
-}
-</script>
+
 <%@ taglib uri="/bbData" prefix="bbData"%>                
 <%@ taglib uri="/bbUI" prefix="bbUI"%>
 <bbData:context id="ctx">
@@ -126,7 +120,7 @@ if(id.startsWith("DEPT-") || id.startsWith("AD-") || id.startsWith("DSt-AmReads"
 			User thisUser = (User)studIter.next();
 			i++;
 			%>
-			<td><div align="left"><img src="https://octet1.csr.oberlin.edu/octet/Bb/Photos/expo/<%=thisUser.getUserName() %>/profileImage" onError="imageError(this)">
+			<td><div align="left"><img src="https://idcard.oberlin.edu/feed/photo/profile.php?id=<%=thisUser.getUserName()%>&b/profileImage" onError="imageError(this)">
 				<br>
 				<%=thisUser.getGivenName() %> &nbsp;<%=thisUser.getFamilyName() %><br/>
 				<%=thisUser.getBusinessFax() %><br/>
