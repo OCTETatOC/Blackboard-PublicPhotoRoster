@@ -2,7 +2,7 @@
 <manifest>
   <!-- core extension information -->
   <plugin>
-    <name value= "OCTET Student Roster 2.1"/>
+    <name value= "OCTET Student Roster 2.2.66"/>
     <handle value= "octetrstr"/>
     <description value= "Student Roster Plugin."/>
     <version value= "2.2.66"/>
@@ -29,7 +29,7 @@
 		   <link>
             <type value="course_tool"/>
             <name value="Student Roster"/>
-            <url value="links/newRoster.jsp"/>
+            <url value="links/Roster.jsp"/>
             <description value="A tool which displays photos for enrolled students." />
             <icons>
               <listitem value="images/icon.gif"/>
