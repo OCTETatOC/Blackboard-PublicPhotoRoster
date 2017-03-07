@@ -35,7 +35,7 @@
               <listitem value="images/icon.gif"/>
             </icons>
           </link>
-          	  <!-- <link>
+          	 <link>
             <type value="tool"/>
             <name value="Student Roster"/>
             <url value="links/newRoster.jsp"/>
@@ -43,7 +43,7 @@
             <icons>
               <listitem value="images/icon.gif"/>
             </icons>
-          </link>-->
+          </link>
 		   </links>
 	  </application>
    </application-defs>
