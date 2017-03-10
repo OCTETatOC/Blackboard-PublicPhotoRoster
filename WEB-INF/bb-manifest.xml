@@ -2,12 +2,12 @@
 <manifest>
   <!-- core extension information -->
   <plugin>
-    <name value= "OCTET Student Roster 2.1"/>
+    <name value= "OCTET Student Roster 2.2.66"/>
     <handle value= "octetrstr"/>
     <description value= "Student Roster Plugin."/>
     <version value= "2.2.66"/>
     <requires>
-    	<bbversion value="9.0.0"/>
+    	<bbversion value="9.1.14"/>
     </requires>
     <vendor>
       <id value="octt"/>
@@ -22,20 +22,20 @@
 
     <!-- Tools defined by this extension -->
     <application-defs>
-      <application handle="studentroster" type="course" use-ssl="false" name="Student Roster" can-allow-guest="false"
+      <application handle="studentroster" type="course" use-ssl="true" name="Student Roster" can-allow-guest="false"
        small-icon="" large-icon="">
         <description lang="en_US">Application installed as part of the OCTET Student Roster.</description>
         <links>
 		   <link>
             <type value="course_tool"/>
             <name value="Student Roster"/>
-            <url value="links/newRoster.jsp"/>
+            <url value="links/roster.jsp"/>
             <description value="A tool which displays photos for enrolled students." />
             <icons>
               <listitem value="images/icon.gif"/>
             </icons>
           </link>
-          	  <!-- <link>
+          	 <link>
             <type value="tool"/>
             <name value="Student Roster"/>
             <url value="links/newRoster.jsp"/>
@@ -43,7 +43,7 @@
             <icons>
               <listitem value="images/icon.gif"/>
             </icons>
-          </link>-->
+          </link>
 		   </links>
 	  </application>
    </application-defs>
