@@ -22,7 +22,7 @@ function imageError( theImage ){
 	theImage.src="https://octet1.csr.oberlin.edu/octet/Bb/Faculty/img/noimage.jpg";
 	theImage.onerror = null;
 }
-</script>
+</SCRIPT>
 
 <%@ taglib uri="/bbData" prefix="bbData"%>               
 <%@ taglib uri="/bbUI" prefix="bbUI"%>
